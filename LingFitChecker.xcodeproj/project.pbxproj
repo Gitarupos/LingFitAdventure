@@ -11,6 +11,10 @@
 		5D2C21662A8F4F6B00A77375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C21652A8F4F6B00A77375 /* ContentView.swift */; };
 		5D2C21682A8F4F6C00A77375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2C21672A8F4F6C00A77375 /* Assets.xcassets */; };
 		5D2C216B2A8F4F6C00A77375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2C216A2A8F4F6C00A77375 /* Preview Assets.xcassets */; };
+		5D6267562B2ABEE300BC7E4C /* SkillListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6267552B2ABEE300BC7E4C /* SkillListViewModel.swift */; };
+		5D6267582B2ABEFA00BC7E4C /* SkillListOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6267572B2ABEFA00BC7E4C /* SkillListOption.swift */; };
+		5D62675C2B2AC88300BC7E4C /* SkillCountCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D62675B2B2AC88300BC7E4C /* SkillCountCheck.swift */; };
+		5D7BA1122B1829DB00653225 /* SelectedSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA1112B1829DB00653225 /* SelectedSkill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5D2C21652A8F4F6B00A77375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D2C21672A8F4F6C00A77375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D2C216A2A8F4F6C00A77375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D6267552B2ABEE300BC7E4C /* SkillListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListViewModel.swift; sourceTree = "<group>"; };
+		5D6267572B2ABEFA00BC7E4C /* SkillListOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListOption.swift; sourceTree = "<group>"; };
+		5D62675B2B2AC88300BC7E4C /* SkillCountCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCountCheck.swift; sourceTree = "<group>"; };
+		5D7BA1112B1829DB00653225 /* SelectedSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedSkill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				5D2C21632A8F4F6B00A77375 /* LingFitCheckerApp.swift */,
 				5D2C21652A8F4F6B00A77375 /* ContentView.swift */,
+				5D6267552B2ABEE300BC7E4C /* SkillListViewModel.swift */,
+				5D6267572B2ABEFA00BC7E4C /* SkillListOption.swift */,
+				5D62675B2B2AC88300BC7E4C /* SkillCountCheck.swift */,
+				5D7BA1112B1829DB00653225 /* SelectedSkill.swift */,
 				5D2C21672A8F4F6C00A77375 /* Assets.xcassets */,
 				5D2C21692A8F4F6C00A77375 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D62675C2B2AC88300BC7E4C /* SkillCountCheck.swift in Sources */,
+				5D6267582B2ABEFA00BC7E4C /* SkillListOption.swift in Sources */,
 				5D2C21662A8F4F6B00A77375 /* ContentView.swift in Sources */,
 				5D2C21642A8F4F6B00A77375 /* LingFitCheckerApp.swift in Sources */,
+				5D6267562B2ABEE300BC7E4C /* SkillListViewModel.swift in Sources */,
+				5D7BA1122B1829DB00653225 /* SelectedSkill.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

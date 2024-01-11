@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct LingFitCheckerApp: App {
+    let viewModel = SkillListViewModel(skillList: SkillList)
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: viewModel)
         }
     }
 }
